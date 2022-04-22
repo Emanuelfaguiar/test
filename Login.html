@@ -7,15 +7,20 @@
     <title>Login-Trackgenix</title>
   </head>
   <body>
-    <h1>SignUp</h1>
     <div class='form-container'>
-      <form method='get'>
-        <input type='email' name='email' placaholder='Email'>
-        <input type='password' pattern='{6,}' placeholder='Password'>
-        <label for='checkbox'>Remember me</label>
-      </form>
-      <a href='#' target='blanck'>Forgot password?</h2>
+      <h1>SignUp</h1>
+      <div class='login-form-container'>
+        <form method='get'>
+          <input type='email' name='email' placaholder='Email'>
+          <input type='password' pattern='{6,}' placeholder='Password'>
+          <div class='chekbox-container'>
+            <input type='checkbox' name='checkbox-remember'>
+            <label for='checkbox-remember'>Remember me</label>
+          </div>
+        </form>
+        <a href='#' target='blanck'>Forgot password?</a>
+        <button>Continue</button>
+      </div>
     </div>
-    <button>Continue</button>
   </body>
 </html>
